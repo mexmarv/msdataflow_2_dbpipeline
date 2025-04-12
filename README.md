@@ -1,4 +1,4 @@
-# Microsoft Dataflows to Databricks Pipeline Migration
+# Microsoft Dataflow to Databricks Pipeline Migration
 
 This comprehensive notebook automates the migration of Microsoft Dataflows into a Databricks pipeline. It retrieves the full dataflow definition from the source API, translates each transformation step from the M language (Power Query) into equivalent PySpark code, and then automatically generates a new Databricks notebook that implements the complete pipeline.
 
